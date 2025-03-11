@@ -4,7 +4,7 @@ source_tables = [
     {
         'database': 'DATABASE', 
         'schema': 'SCHEMA', 
-        'table': 'MAIN_TABLE_1', 
+        'table': 'USE_CASE_2', 
         'columns': None  # This will fetch all columns in the table
     },
     {
@@ -23,7 +23,7 @@ source_tables = [
 
 ## Table descriptions
 descriptions = {
-    'MAIN_TABLE_1': """
+    'USE_CASE_2': """
     ### PLACEHOLDER, HERE COMES ALL THE NECESSARY INFORMATION REGARDING THIS DATASOURCE.
     """,
     'MAPPING_TABLE_1': """
@@ -36,7 +36,7 @@ descriptions = {
 
 ## Joins to other tables
 relationships = { 
-    'MAIN_TABLE_1': {
+    'USE_CASE_2': {
         'COLUMN_1': {
             'reference': 'MAPPING_TABLE_1.COLUMN_1',
             'description': '### PLACEHOLDER - RELATIONSHIP (ONE TO ONE, ONE TO MANY ETC.)'
