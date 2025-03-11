@@ -5,7 +5,7 @@ source_tables = [
     {
         'database': 'DATABASE', 
         'schema': 'SCHEMA', 
-        'table': 'MAIN_TABLE_1', 
+        'table': 'USE_CASE_1', 
         'columns': None  # This will fetch all columns in the table
     },
     {
