@@ -105,11 +105,11 @@ Provide examples of what you can do using bullet points, and conclude by highlig
 use_cases = {
     "PLACEHOLDER_USE_CASE_1": { # The name here defines the appearance in the dropdown selector
       "main_datasource": "DATABASE.SCHEMA.USE_CASE_1", # This datasource will be used to fetch the available time frame
-      "prompt_file": "prompts.USE_CASE_1" # Path to prompt file
+      "prompt_file": "prompts.use_case_1" # Path to prompt file
     },
     "PLACEHOLDER_USE_CASE_2": {
       "main_datasource": "DATABASE.SCHEMA.USE_CASE_2",
-      "prompt_file": "prompts.USE_CASE_2"
+      "prompt_file": "prompts.use_case_2"
     },
 }
 
