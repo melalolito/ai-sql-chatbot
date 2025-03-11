@@ -1,6 +1,5 @@
 from utils import get_table_context_json
 
-# We want to contain Trippy's access to ANALYTICS.TRIPPY only. If you need to integrate mapping tables from other DBs - please use view_creation.ipynb first to create the required tables as a view under ANALYTICS.TRIPPY.
 source_tables = [
     {
         'database': 'DATABASE', 
@@ -24,7 +23,7 @@ source_tables = [
 
 ## Table descriptions
 descriptions = {
-    'MAIN_TABLE_1': """
+    'USE_CASE_1': """
     ### PLACEHOLDER, HERE COMES ALL THE NECESSARY INFORMATION REGARDING THIS DATASOURCE.
     """,
     'MAPPING_TABLE_1': """
@@ -37,7 +36,7 @@ descriptions = {
 
 ## Joins to other tables
 relationships = { 
-    'MAIN_TABLE_1': {
+    'USE_CASE_1': {
         'COLUMN_1': {
             'reference': 'MAPPING_TABLE_1.COLUMN_1',
             'description': '### PLACEHOLDER - RELATIONSHIP (ONE TO ONE, ONE TO MANY ETC.)'
@@ -65,7 +64,7 @@ examples = [
         'user_input': '### PLACEHOLDER - EXAMPLE QUESTION',
         'sql_query': """
         SELECT ... ### EXAMPLE QUERY
-        FROM DATABASE.SCHEMA.TABLE
+        FROM DATABASE.SCHEMA.USE_CASE_1
         WHERE COLUMN1 IN ('X', 'Y')
         """
     },###...
